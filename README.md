@@ -22,7 +22,7 @@ This project is a compact and efficient Bluetooth speaker powered by the ESP32-C
 - **MAX98357 Module**: I2S digital audio amplifier.
 - **3.7V Li-ion Battery**: Rechargeable power source.
 - **Charging Module**: Handles battery charging.
-- **Speaker**: Full-range laptop speaker.
+- **Speaker**: Full-range laptop speaker. (e.g. MEDION Akoya S6446)
 - **LED**: Indicates low battery state.
 - **Push Button**: Controls power and sleep mode.
 - Resistors (330Ω for LED, 10kΩ and 2,2kΩ for voltage divider).
