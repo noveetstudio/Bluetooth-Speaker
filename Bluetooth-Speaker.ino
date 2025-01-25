@@ -10,7 +10,8 @@
 #define ADC_PIN GPIO3
 
 #define LOW_BATTERY_THRESHOLD 3300  // 3.3V in millivolts
-#define VOLTAGE_DIVIDER_FACTOR 2    // 1 if directly connected, else Battery+ -[R1]- GPIO3 -[R2]- GND
+//Voltage divider setup R1=10kOhm R2=2.2kOhm
+#define VOLTAGE_DIVIDER_FACTOR 10000/2200    // 1 if directly connected, else Battery+ -[R1]- GPIO3 -[R2]- GND
 
 #define DEBOUNCE_TIME 200  // Debounce time in milliseconds
 
